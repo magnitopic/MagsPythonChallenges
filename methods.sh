@@ -1,6 +1,7 @@
 #!/bin/bash
 touch main.py
-for i in {0..10}
+for i in {1..10}
 do
-   echo "# method $i\n">>main.py
+   echo "# method $i">>main.py
+   echo >>main.py
 done
