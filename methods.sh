@@ -1,6 +1,6 @@
 #!/bin/bash
 touch main.py
-for i in {1..10}
+for i in $(seq 1 5)
 do
    echo "# method $i">>main.py
    echo >>main.py
